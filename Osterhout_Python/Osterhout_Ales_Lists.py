@@ -91,9 +91,16 @@ equipment.remove("Whet Stone")
 equipment.append("Bananas")
 
 print(equipment)
-
+print()
+print()
+print()
 #	Project Dimensions
 
+scores = [57, 21, 98, 75, 69, 7]
+
+print("List Length:", len(scores))
+print("Minimum value in list:", min(scores))
+print("Maximum value in list:", max(scores))
 
 
 
