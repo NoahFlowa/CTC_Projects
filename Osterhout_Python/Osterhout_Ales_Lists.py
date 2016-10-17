@@ -91,31 +91,67 @@ equipment.remove("Whet Stone")
 equipment.append("Bananas")
 
 print(equipment)
+
 print()
+
 print()
+
 print()
+
 #	Project Dimensions
 
 scores = [57, 21, 98, 75, 69, 7]
 
 print("List Length:", len(scores))
+
 print("Minimum value in list:", min(scores))
+
 print("Maximum value in list:", max(scores))
 
+#	Project Story
 
+print()
 
+first_name = input("What's your first name? \n")
 
+print()
 
+print("Welcome to my game {}!".format(first_name))
 
+print()
 
+stuff_things = []
 
+thing_one = input("Name a person! \n")
 
+print()
 
+thing_two = input("Name a thing! \n")
 
+print()
 
+thing_three = input("Name a place! \n")
 
+print()
 
+stuff_things.append(thing_one)
 
+stuff_things.append(thing_two)
 
+stuff_things.append(thing_three)
 
+print(stuff_things)
+
+print()
+
+print("""
+
+The story of {0} and their friend {1}
+
+Once upon a time {0} and {1} went to {3} to find magical {2} and
+they came up empty handed.  
+
+THE END!
+
+""".format(first_name, thing_one, thing_two, thing_three))
 
