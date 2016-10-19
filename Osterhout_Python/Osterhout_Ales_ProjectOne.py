@@ -58,49 +58,15 @@ print()
 
 # Project Basic Calc
 
-num1 = float(input("What is your first number? \n"))
-num2 = float(input("What is your second number? \n"))
-
-add = num1 + num2
-difference = num1 - num2
-product = num1 * num2
-quotient = num1 / num2
-
-print("{0} + {1} is equal to {2}".format(num1, num2, add))
-print("{0} - {1} is equal to {2}".format(num1, num2, difference))
-print("{0} * {1} is equal to {2}".format(num1, num2, product))
-print("{0} / {1} is equal to {2}".format(num1, num2, quotient))
-
-print()
-print()
-print()
-# Project Groceries
-
-item1 = float(input("How much was the first thing? "))
-item2 = float(input("How much was the second thing? "))
-item3 = float(input("How much was the third thing? "))
-item4 = float(input("How much was the fourth thing? "))
-item5 = float(input("How much was the fifth thing? "))
-
-sum_notax = item1 + item2 + item3 + item4 + item5
-print("Total without tax is", sum_notax)
-
-tax = 1.06
-
-sum_tax = sum_notax * tax
-print("Total tax is", sum_tax)
-
-tax_two = sum_tax - sum_notax
-print("Sales tax is", tax_two)
 
 
-print()
-print()
-print()
 
 
-# Triple Quotes
 
-print("""Noah and Keegan
-October 4, 2016
-IT'S A TRAP!!!""")
+
+
+
+
+
+
+
